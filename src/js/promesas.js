@@ -22,7 +22,6 @@ export const buscarHeroe = (id) => {
         if (heroe) {
             setTimeout(() => resolve(heroe), 1000);
         } else {
-            // Un error
             reject('No existe un heroe con el id ' + id);
         }
 
